@@ -2,93 +2,44 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>任小乐的注册页面设计作业</title>
-		<style>
-			/* 标签选择器 */
-			div{
-				margin-bottom: 15px;
+		<title>任小乐的图标设计作业</title>
+		<style type="text/css">
+			#bk{
+				box-shadow:0px 0px 10px 1px #4682B4;
+				width: 700px;
+				height: 150px;
+			    border-radius: 40px;
+				border-width: 3px;
+				background-color: ghostwhite;
+				position: relative;
+				margin: 450px auto;
 			}
-			input{
-				margin-left: 10px;
+			#xiaohui{
+				background-repeat: no-repeat;
+				background-size: 500px 500px;
+				width: 150px;
+				height: 400px;
+			    margin: 5px 20px;
+				background-image: url(img/dong_tubiao.png);
+				background-size: 140px 140px;
+				float: left;
 			}
-			body{
-				font-size: 20px;
-				color: gray;
-			}
-			#content{
-				width: 500px;
-				margin: 300px auto;
-				border: 5px dashed dimgrey;
-				border-radius: 5%;
-				padding-left: 20px;
-		    }
-			#memo{
-				min-width: 410px;
-				min-height: 100px;
-				resize:none;"
+			#font{
+				text-align: 50px;
+				font-family: 楷体;
+				color: #4682B4;
+				font-size: 55px;
+				line-height: 150px;
 			}
 		</style>
-	</head>
+	</head>s
 	<body>
-		<div id="content">
-		<form name="form1">
-			<!-- 表单 -->
-			<div>
-				<label for="username">姓名:</label><!-- 标记 -->
-				<input type="text"  required name="username" id=username  />
-				<!-- type=text required必填项 -->
+		<div>
+		<div id="bk">
+			<div id="xiaohui">
 			</div>
-			<div>
-				<label for="usesrage">年龄:</label>
-				<input type="number" name="userage" id=userage  />
-			</div>
-			<div>
-				<label for="userbirthday">出生生日：</label>
-				<select>
-					<option>--请选择年份--</option>
-					<option>2022</option>
-					<option>2021</option>
-					<option>2020</option>
-					<option>2019</option>
-					<option>2018</option>
-				</select>
-				<select>
-					<option>--请选择月份--</option>
-					<option>12</option>
-					<option>11</option>
-					<option>10</option>
-					<option>9</option>
-					<option>8</option>
-					<option>7</option>
-				</select>
-				<select>
-					<option>--请选择日期--</option>
-					<option>31</option>
-					<option>30</option>
-					<option>29</option>
-					<option>28</option>
-					<option>27</option>
-					<option>26</option>
-				</select>
-			</div>
-			<div>
-				邮箱:<input type="number"/>
-				<p>
-			    个人主页:<input type="number"/>
-			</div>
-			<div>
-				<p>个人简介:</p>
-				<textarea name="memo" id="memo" required>请输入您的个人介绍……</textarea>
-				<!-- style="resize:none;"隐藏文本拖拽按钮 -->
-				<p>
-				<input type="checkbox" name="agree" id="agree" checked="checked" /> 我同意信息录入
-				</p>
-				<!-- 下拉就是selected=“selected”，勾选就是checked=“checked” -->
-			</div>
-			<div>
-				<input type="button" value="提交">
-			</div>
-		</form>
+			<div id="font">精勤博学，学以致用</div>
+		</div>
 		</div>
 	</body>
 </html>
